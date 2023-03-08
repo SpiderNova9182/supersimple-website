@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-image: url(https://ychef.files.bbci.co.uk/976x549/p02mmrh8.jpg);
+  font-family:Goonies;
+  padding: 20px;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Goonies;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+.header {
+  text-align: center;
+  padding: 32px;
+  background-color: #000000;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+  border-top: 4px solid #fdb347;
+}
+ul {
+list-style: none;
+background: #000000;
+}
+ul li {
+display: inline-block;
+position: relative;
+}
+ul li a {
+display: block;
+padding: 20px 25px;
+color: #FFF;
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+}
+ul li ul.dropdown li {
+display: block;
+}
+ul li ul.dropdown {
+width: 100%;
+background: #000000;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li a:hover {
+background: #fdb347;
+}
+ul li:hover ul.dropdown {
+display: block;
+}
